@@ -39,7 +39,7 @@ This repository reorganizes and upgrades the original course notebooks into **Co
 | Week | Topic                                   | Status     |
 |------|-----------------------------------------|------------|
 | 1    | Preprocessing & Logistic Regression     | ✅ Done     |
-| 2    | Naive Bayes & Vector Representations    | 🛠️ Coming soon |
+| 2    | Naive Bayes & Vector Representations    | ✅ Done       |
 | 3    | Embeddings & Similarity                 | 🔒 Not started |
 | 4    | Sentiment & Neural Networks             | 🔒 Not started |
 

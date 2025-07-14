@@ -12,13 +12,6 @@ This repository reorganizes and upgrades the original course notebooks into **Co
 ---
 
 ## 📘 Course 1: Classification and Vector Spaces
-
-### ✅ Week 1: Tweet Preprocessing & Logistic Regression
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Joe-rini/nlp-specialization-colab/blob/main/Week1_Complete_Final_A1First.ipynb)
-
-This notebook covers preprocessing, training, evaluation, and live demo.
-
 **Topics Covered:**
 - Preprocessing tweets (tokenization, stemming, stopwords)
 - Visualizing word frequencies
@@ -28,12 +21,14 @@ This notebook covers preprocessing, training, evaluation, and live demo.
 - Gradio interface for live prediction
 - Self-check quizzes
 
----
+## 📅 Week 1 — Natural Language Processing with Classification & Vector Spaces
 
-## 🚀 How to Use
-
-Click the **Colab badge** above to launch the notebook.  
-All dependencies will install automatically.
+| Day | Notebook | What you’ll build & learn |
+|-----|----------|---------------------------|
+| **L1** | `C1W1_L1_Preprocessing_Teaching.ipynb` | *Clean & tokenise* raw tweets, remove stop-words, apply stemming, then test everything on a toy sentence and an NLTK Twitter corpus. Ends with an interactive **Gradio preprocessing playground**. |
+| **L2** | `C1W1_L2_Visualizing_Word_Frequencies_Teaching_v2.ipynb` | Turn tokens into **frequency dictionaries**, draw bar-plots & sentiment-split word-clouds, and explore any text live in a **Gradio word-frequency app**. |
+| **L3** | `C1W1_L3_Logistic_Regression_Teaching_v4.ipynb` | Convert tweets to simple *(pos, neg)* feature vectors, train & visualise a **Logistic Regression** classifier, plot its decision boundary, print accuracy + confusion matrix, and deploy a **Gradio sentiment tester**. |
+| **A1** | `C1W1_A1_Logistic_Regression_Teaching.ipynb` | **Implement Logistic Regression from scratch** with gradient descent. Includes guided TODOs, a cost-convergence plot, accuracy check, and a Gradio app that queries your very own model. |
 
 ---
 

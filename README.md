@@ -15,8 +15,9 @@ This repository reorganizes and upgrades the original course notebooks into **Co
 
 ### ✅ Week 1: Tweet Preprocessing & Logistic Regression
 
-📄 Notebook:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Joe-rini/nlp-specialization-colab/blob/main/Week1/Week1_Complete_Final_A1First.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Joe-rini/nlp-specialization-colab/blob/main/Week1_Complete_Final_A1First.ipynb)
+
+This notebook covers preprocessing, training, evaluation, and live demo.
 
 **Topics Covered:**
 - Preprocessing tweets (tokenization, stemming, stopwords)

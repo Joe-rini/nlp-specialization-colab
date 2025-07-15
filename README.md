@@ -3,6 +3,7 @@
 This course is derived from DeepLearning.ai's Natural Language Processing Specialization, Course 1: Natural Language Processing with Classification and Vector Spaces ([Course link](https://www.coursera.org/learn/classification-vector-spaces-in-nlp/home/info).)
 It uses reworks the open-source notebooks from [@amanchadha](https://github.com/amanchadha/coursera-natural-language-processing-specialization) [`amanchadha/coursera-natural-language-processing-specialization`](https://github.com/amanchadha/coursera-natural-language-processing-specialization), by making the core ideas of the course more intuititve, with clear toy examples and markdown explanations, and making the lessons available in fully workable Google Colab environments so that beginners can run the course entirely in Colab. 
 
+This course is designed so that you truly learn the concepts in the lessons, with clear instructions and executable code. The assignments (solutions to the DeepLearning.ai course) can be seen as optional. They often repeat most of what is done in the lessons.
 
 ## 📘 Course 1: Classification and Vector Spaces
 **Topics Covered:**

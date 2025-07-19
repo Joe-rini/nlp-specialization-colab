@@ -40,9 +40,8 @@ This course is designed so that you truly learn the concepts in the lessons, wit
 
 | Day | Notebook | Description | Open in Colab |
 |-----|----------|-------------|----------------|
-| L1  | `C1W2_L1_Likelihoods_Teaching_v2.ipynb` | Compute Naïve Bayes log-likelihoods for tweets, plot them in (log Pₚₒₛ, log Pₙₑg) space, draw 95 % confidence ellipses, and explore any tweet live in a Gradio likelihood visualizer. | [Open in Colab](https://colab.research.google.com/github/Joe-rini/nlp-specialization-colab/blob/main/week2/C1W2_L1_Likelihoods_Teaching_v2.ipynb) |
+| L1  | `C1W2_L1_Likelihoods_Teaching_v2.ipynb` | Compute Naïve Bayes log-likelihoods for tweets, plot them in (log Pₚₒₛ, log Pₙₑg) space, draw 95 % confidence ellipses, and explore any tweet live in a Gradio likelihood visualizer. | [Open in Colab](https://colab.research.google.com/github/Joe-rini/nlp-specialization-colab/blob/main/week2/C1W2L1_naive_bayes_likelihoods_lesson.ipynb) |
 | A2  | `C1W2_A1_Naive_Bayes_Teaching_v2.ipynb` | Implement Naïve Bayes from scratch using Laplace smoothing. Preserves `### UNQ_Cx` autograder tags, includes local test assertions, and finishes with an interactive Gradio classifier. | [Open in Colab](https://colab.research.google.com/github/Joe-rini/nlp-specialization-colab/blob/main/week2/C1W2_A2_Naive_Bayes_From_Scratch_Teaching.ipynb) |
-
 ---
 
 ## 🧑‍💻 Attribution

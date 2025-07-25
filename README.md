@@ -1,7 +1,8 @@
 # 🧠 NLP Specialization – Colab Companion Notebooks
 
-This course is derived from DeepLearning.ai's Natural Language Processing Specialization, Course 1: Natural Language Processing with Classification and Vector Spaces ([Course link](https://www.coursera.org/learn/classification-vector-spaces-in-nlp/home/info).)
-It reworks the open-source notebooks from [@amanchadha](https://github.com/amanchadha/coursera-natural-language-processing-specialization) [`amanchadha/coursera-natural-language-processing-specialization`](https://github.com/amanchadha/coursera-natural-language-processing-specialization), by making the core ideas of the course more intuitive with clear toy examples, markdown explanations, and **fully runnable Google Colab notebooks**.
+This GitHub course is intended to let teach you modern NLP techniques on your own, or as a companion to DeepLearning.ai's Natural Language Processing Specialization, Course 1: Natural Language Processing with Classification and Vector Spaces ([Course link](https://www.coursera.org/learn/classification-vector-spaces-in-nlp/home/info).)
+
+This course provides self-contained and intuitive Google Colab notebooks covering each topic, so you can work through all of the key ideas, run code snippets, and visualize results. The course takes as inspiration the actual code from the DeepLearning.ai, which is made available in open-source notebooks here:(https://github.com/amanchadha/coursera-natural-language-processing-specialization) [`amanchadha/coursera-natural-language-processing-specialization`](https://github.com/amanchadha/coursera-natural-language-processing-specialization). My contribution is to try to make the core ideas of the course more intuitive with clear toy examples, markdown explanations, and **fully runnable Google Colab notebooks**. Even if you are taking the DeepLearning.ai course (paid, or just auditing it for free) I suggest you additionally work through the Colab "lessons" I have created. 
 
 This version is designed so you truly learn the *concepts* in the lessons. Assignments are optional: they often repeat the core material from the lessons, but let you implement parts yourself.
 
@@ -51,15 +52,23 @@ This version is designed so you truly learn the *concepts* in the lessons. Assig
 | L1  | `C1W2_L1_Likelihoods_Teaching_v2.ipynb` | Compute Naïve Bayes log-likelihoods for tweets, plot them in (log Pₚₒₛ, log Pₙₑₘ) space, draw 95 % confidence ellipses, and explore any tweet live in a Gradio likelihood visualizer. | [Open in Colab](https://colab.research.google.com/github/Joe-rini/nlp-specialization-colab/blob/main/week2/C1W2L1_naive_bayes_likelihoods_lesson.ipynb) |
 | A2  | `C1W2_A1_Naive_Bayes_Teaching_v2.ipynb` | Implement Naïve Bayes from scratch using Laplace smoothing. Preserves `### UNQ_Cx` autograder tags, includes local test assertions, and finishes with an interactive Gradio classifier. | [Open in Colab](https://colab.research.google.com/github/Joe-rini/nlp-specialization-colab/blob/main/week2/C1W2_A2_Naive_Bayes_From_Scratch_Teaching.ipynb) |
 
-
 ## 🗕️ Week 3 — Embeddings, Similarity, & PCA
 
 | Day | Notebook | Description | Open in Colab |
 |-----|----------|-------------|----------------|
 | L1  | `C1W3_L1_Linear_Algebra_Colab.ipynb` | Learn the basics of vectors, dot product, and cosine similarity using NumPy, apply them to real and toy examples, and explore similarity with an interactive Gradio app. | [Open in Colab](https://colab.research.google.com/drive/1DFS9OpMkNf4DBfuhmwRxjbPtNnj9lqW0?hl=de#scrollTo=141e7227) |
-| L2  | `C1W3_L2_Embeddings_Colab.ipynb` | Load pre-trained word embeddings and explore analogies like `king - man + woman = queen` using vector arithmetic. Try your own with a live Gradio explorer. | Coming soon |
-| L3  | `C1W3_L3_PCA_Embeddings_Colab.ipynb` | Use PCA to project high-dimensional word embeddings into 2D. Visualize capital–country relationships as vector arrows, and build spatial intuition about semantic similarity. | Coming soon |
+| L2  | `C1W3_L2_Embeddings_Colab.ipynb` | Load pre-trained word embeddings and explore analogies like `king - man + woman = queen` using vector arithmetic. Try your own with a live Gradio explorer. | [Open in Colab](https://colab.research.google.com/github/Joe-rini/nlp-specialization-colab/blob/main/week3/C1W3_L2_Embeddings_Colab.ipynb) |
+| L3  | `C1W3_L3_PCA_Embeddings_Colab.ipynb` | Use PCA to project high-dimensional word embeddings into 2D. Visualize capital–country relationships as vector arrows, and build spatial intuition about semantic similarity. | [Open in Colab](https://colab.research.google.com/github/Joe-rini/nlp-specialization-colab/blob/main/week3/C1W3_L3_PCA_Embeddings_Reconstruction_Colab.ipynb) |
 
+## 🗕️ Week 4 — Rotations, Hash Tables & Word Translation
+
+| Day | Notebook | Description | Open in Colab |
+|-----|----------|-------------|----------------|
+| L1  | `C1W4_L1_Rotation_Matrices_in_R2.ipynb` | Learn the foundations of **2D rotation matrices**, build geometric intuition, and explore interactive visualizations that show how vectors transform in space. This intuition is key for understanding **SVD and embeddings** later in the course. | [Open in Colab](https://colab.research.google.com/github/Joe-rini/nlp-specialization-colab/blob/main/week4/C1W4_L1_Rotation_Matrices_in_R2.ipynb) |
+| L2  | `C1W4_L2_Hash_Tables.ipynb` | Understand **hash functions and hash tables**, implement one from scratch, and use interactive widgets to insert and retrieve word translations. This prepares you for the **Word Translation assignment**. | [Open in Colab](https://colab.research.google.com/github/Joe-rini/nlp-specialization-colab/blob/main/week4/C1W4_L2_Hash_Tables.ipynb) |
+| A1  | `C1W4_A1_Word_Translation.ipynb` | Use hash tables to efficiently build a word translation system between English and French. | Coming soon |
+
+---
 ---
 
 ## 🧑‍💻 Attribution

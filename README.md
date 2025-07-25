@@ -1,10 +1,14 @@
 # 🧠 NLP Specialization – Colab Companion Notebooks
 
-This GitHub course is intended to let teach you modern NLP techniques on your own, or as a companion to DeepLearning.ai's Natural Language Processing Specialization, Course 1: Natural Language Processing with Classification and Vector Spaces ([Course link](https://www.coursera.org/learn/classification-vector-spaces-in-nlp/home/info).)
+This set of lessons is intended to teach you modern NLP techniques, based loosely on DeepLearning.ai's Natural Language Processing Specialization, Course 1: Natural Language Processing with Classification and Vector Spaces ([Course link](https://www.coursera.org/learn/classification-vector-spaces-in-nlp/home/info).)  It is meant to work on it's own, but can also be used as a companion to that course. I strongly believe the Colab notebooks add a huge amount of clarification compared to the original course lectures.
 
-This course provides self-contained and intuitive Google Colab notebooks covering each topic, so you can work through all of the key ideas, run code snippets, and visualize results. The course takes as inspiration the actual code from the DeepLearning.ai, which is made available in open-source notebooks here:(https://github.com/amanchadha/coursera-natural-language-processing-specialization) [`amanchadha/coursera-natural-language-processing-specialization`](https://github.com/amanchadha/coursera-natural-language-processing-specialization). My contribution is to try to make the core ideas of the course more intuitive with clear toy examples, markdown explanations, and **fully runnable Google Colab notebooks**. Even if you are taking the DeepLearning.ai course (paid, or just auditing it for free) I suggest you additionally work through the Colab "lessons" I have created. 
+The repository is organized into weekly lessons and assignments that mirror the DeepLearning.ai course, but provide self-contained and intuitive Google Colab notebooks covering each topic, so you can work through all of the key ideas, run code snippets, and visualize results. As a starting point, I used the actual code from the DeepLearning.ai course, which is made available in open-source notebooks here:(https://github.com/amanchadha/coursera-natural-language-processing-specialization) [`amanchadha/coursera-natural-language-processing-specialization`](https://github.com/amanchadha/coursera-natural-language-processing-specialization). 
 
-This version is designed so you truly learn the *concepts* in the lessons. Assignments are optional: they often repeat the core material from the lessons, but let you implement parts yourself.
+My contribution was to try to make the core ideas of the course more intuitive with clear toy examples, detialed plain language explanations, and fully runnable Google Colab notebooks so you can simply open a notebook and get started. Even if you are taking the DeepLearning.ai course (paid, or just auditing it for free) I suggest you additionally work through the Colab "lessons" I have created while working through the videos.
+
+This version is designed so you truly learn the *concepts* in the lessons. The weekly assignments are optional: they often repeat the core material from the lessons, but let you implement parts yourself. Whereas the weekly lessons have been substantially changed to help make ideas clearer, the assignments have more or less been left as they are in the DeepLearning.ai course (with the answers provided by Amanchadha).
+
+**Tip: To truly be taking advantage of this course, you should be working through it with ChatGPT, Claude or some other LLM-based chat open; checking ideas, asking for clarification, getting new code snippets to explore ideas further or visualize outcomes, etc.**
 
 ---
 
@@ -30,7 +34,7 @@ This version is designed so you truly learn the *concepts* in the lessons. Assig
 | 1    | Preprocessing & Logistic Regression     | ✅ Done     |
 | 2    | Naive Bayes & Vector Representations    | ✅ Done       |
 | 3    | Embeddings & Similarity                 | ✅ Done |
-| 4    | Sentiment & Neural Networks             | 🔒 Not started |
+| 4    | Sentiment & Neural Networks             | ✅ Done |
 
 ---
 
